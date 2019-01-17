@@ -7,19 +7,20 @@
 <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body class="home">
-<!--page-wrapper-->
 <div class="page-wrapper">
 	<header class="header wrapper" id="header">
     <div class="container">
         <div class="row">
             <div class="header__logo col-md-12 col-lg-3">
-                <div class="logo__ico">
-                    <img src="../static/images/logo.png" alt="">
-                </div>
-                <div class="logo__title">
-                    Шинный онлайн
-                    <span>калькулятор</span>
-                </div>
+                <a href="#">
+                    <div class="logo__ico">
+                        <img src="../static/images/logo.png" alt="">
+                    </div>
+                    <div class="logo__title">
+                        Шинный онлайн
+                        <span>калькулятор</span>
+                    </div>
+                </a>
             </div>
             <div class="top-nav col-md-12 col-lg-9">
                 <ul>
@@ -214,20 +215,20 @@
 	c8.96,7.34,37.43,29.67,37.43,29.67s21.1-22.63,26.85-28.35c9.5,3.92,41.64,16.64,41.64,16.64s13.09-27.5,17.02-34.62
 	c9.83,1.04,41.59,4.17,41.59,4.17s6.84-28.76,9.28-36.9c8.87-1.5,41.77-7.36,41.77-7.36L388,525H18.09z"/>
 </svg>
-
                             </span>
                             Разборные колеса
                         </a>
                     </li>
                 </ul>
+                <div class="top-btn">
+                    <button></button>
+                </div>
             </div>
         </div>
     </div>
 </header>
-	<!--page-content-->
 	<div class="page-content">
-		<div class="page-content">
-    <section class="wrapper wrapper__tabs">
+		<section class="wrapper wrapper__tabs">
         <div class="container">
             <div class="tabs__content">
                 <div id="tab1" class="content__tab tab-active">
@@ -364,20 +365,21 @@
                                     </form>
                                 </div>
                                 <div class="container__details">
-                                    <table class="table">
-                                        <thead>
+                                    <div class="details__wrap">
+                                        <table class="table">
+                                            <thead>
                                             <tr>
                                                 <th>Details</th>
                                                 <td>Original</td>
                                                 <td>New</td>
                                             </tr>
-                                        </thead>
-                                        <tbody>
+                                            </thead>
+                                            <tbody>
                                             <tr>
-                                            <th>Wheel Width (in.)</th>
-                                            <td>586</td>
-                                            <td>586</td>
-                                        </tr>
+                                                <th>Wheel Width (in.)</th>
+                                                <td>586</td>
+                                                <td>586</td>
+                                            </tr>
                                             <tr>
                                                 <th>Wheel Offset (mm)</th>
                                                 <td>205</td>
@@ -398,8 +400,9 @@
                                                 <td>543</td>
                                                 <td>543</td>
                                             </tr>
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                                 <div class="table__scroll">
                                     <h4>Equivalent Arch Clearance (103J et-350.9)</h4>
@@ -1046,14 +1049,11 @@
             </div>
         </div>
     </section>
-</div>
 	</div>
-	<!--page-content-->
 	<footer class="footer" id="footer">
         © 2018 Все права защищены
 </footer>
 </div>
-<!--end-page-wrapper-->
 <script  type="text/javascript" src="../static/js/jquery.min.js"></script>
 <script  type="text/javascript" src="../static/js/selectric/jquery.selectric.min.js"></script>
 <script  type="text/javascript" src="../static/js/common.js"></script>
